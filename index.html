@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FalconLab EdTech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" href="./icon.png" type="image/png">
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">
+            <img src="./icon.png" alt="FalconLab Logo">
+            <div>
+                <p>FalconLab</p>
+                <span>EdTech</span>
+            </div>
+        </div>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation menu">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+            <a class="button nav-button" href="#contact">Book Call</a>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-copy">
+            <span class="eyebrow">Enterprise EdTech Infrastructure</span>
+            <h1>Premium digital platforms for schools and coaching institutes.</h1>
+            <p>FalconLab builds modern websites, LMS systems, testing ecosystems, and student portals that feel polished, secure, and effortless.</p>
+            <div class="hero-actions">
+                <a class="button primary" href="#contact">Book a consultation</a>
+                <a class="button secondary" href="#services">Explore services</a>
+            </div>
+            <div class="hero-stats">
+                <div><strong>50+</strong> institutions onboarded</div>
+                <div><strong>24/7</strong> support availability</div>
+                <div><strong>100%</strong> ownership options</div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-card">
+                <span class="material-symbols-outlined">school</span>
+                <h2>Student LMS</h2>
+                <p>Secure portal for study materials, assignments, and progress tracking.</p>
+            </div>
+            <div class="hero-card accent">
+                <span class="material-symbols-outlined">devices</span>
+                <h2>Institute Webapp</h2>
+                <p>Custom staff and student dashboard with real-time collaboration.</p>
+            </div>
+            <div class="hero-panel">
+                <div class="panel-title">FalconLab advantage</div>
+                <ul>
+                    <li>Impact-first product design</li>
+                    <li>Transparent pricing and delivery</li>
+                    <li>Dedicated training and support</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section intro">
+            <div class="section-header">
+                <span>Our approach</span>
+                <h2>We do not work for profits. We work for impact.</h2>
+            </div>
+            <p>FalconLab operates as a low-profit, mission-driven organisation focused on quality technology access for educational institutions. Our goal is student success, not revenue growth.</p>
+        </section>
+
+        <section class="section services" id="services">
+            <div class="section-header">
+                <span>What we build</span>
+                <h2>Services designed for modern education.</h2>
+            </div>
+            <div class="grid grid-4">
+                <article class="card glass">
+                    <span class="material-symbols-outlined">globe</span>
+                    <h3>Landing Pages</h3>
+                    <p>Design-led websites that attract parents, display programs clearly, and drive admission inquiries.</p>
+                </article>
+                <article class="card glass">
+                    <span class="material-symbols-outlined">devices</span>
+                    <h3>Institute Webapp</h3>
+                    <p>Student and teacher portals with homework, notices, attendance and communication tools.</p>
+                </article>
+                <article class="card glass">
+                    <span class="material-symbols-outlined">school</span>
+                    <h3>Students LMS</h3>
+                    <p>Centralised learning environment for courses, resources, assessments, and progress insights.</p>
+                </article>
+                <article class="card glass">
+                    <span class="material-symbols-outlined">article</span>
+                    <h3>Online Testing</h3>
+                    <p>Exam simulations tailored for JEE, CUET, and other competitive formats with real-time feedback.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section showcase" id="showcase">
+            <div class="section-header">
+                <span>Showcase of Landing Pages</span>
+                <h2>Live demos of our latest projects.</h2>
+            </div>
+
+            <div class="showcase-toggles">
+                <button class="showcase-toggle active" data-filter="landing-pages">
+                    <span class="material-symbols-outlined">shopping_bag</span>
+                    Landing Pages
+                </button>
+                <button class="showcase-toggle" data-filter="platform-demos">
+                    <span class="material-symbols-outlined">dashboard</span>
+                    Platform Demos
+                </button>
+            </div>
+
+            <div class="showcase-grid">
+                <article class="showcase-card landing-pages">
+                    <div class="showcase-header">
+                        <div class="live-badge">LIVE</div>
+                        <span class="material-symbols-outlined">school</span>
+                        <h3>BrightFuture School</h3>
+                    </div>
+                    <div class="showcase-image">
+                        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=500&h=300&fit=crop" alt="BrightFuture School">
+                    </div>
+                    <div class="showcase-content">
+                        <h4>Shaping <span class="highlight-blue">Bright</span> Futures Together</h4>
+                        <p>Quality education, modern facilities, and a nurturing environment for every child.</p>
+                        <div class="showcase-service">
+                            <span class="material-symbols-outlined">apartment</span>
+                            <span class="service-title">School Landing Page</span>
+                        </div>
+                        <a class="button showcase-button" href="#">
+                            <span class="material-symbols-outlined">open_in_new</span>
+                            Visit Live Demo
+                        </a>
+                    </div>
+                </article>
+
+                <article class="showcase-card landing-pages">
+                    <div class="showcase-header">
+                        <div class="live-badge">LIVE</div>
+                        <span class="material-symbols-outlined">school</span>
+                        <h3>NextRank Coaching</h3>
+                    </div>
+                    <div class="showcase-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop" alt="NextRank Coaching">
+                    </div>
+                    <div class="showcase-content">
+                        <h4>Achieve <span class="highlight-orange">More</span> with Expert Guidance</h4>
+                        <p>Specialized coaching for JEE, NEET, CUET and Board Exams with proven results.</p>
+                        <div class="showcase-service">
+                            <span class="material-symbols-outlined">school</span>
+                            <span class="service-title">Coaching Institute Page</span>
+                        </div>
+                        <a class="button showcase-button" href="#">
+                            <span class="material-symbols-outlined">open_in_new</span>
+                            Visit Live Demo
+                        </a>
+                    </div>
+                </article>
+                <article class="showcase-card platform-demos">
+                    <div class="showcase-header">
+                        <div class="live-badge">DEMO</div>
+                        <span class="material-symbols-outlined">web</span>
+                        <h3>School Webapp</h3>
+                    </div>
+                    <div class="showcase-image">
+                        <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=500&h=300&fit=crop" alt="School Webapp">
+                    </div>
+                    <div class="showcase-content">
+                        <h4>Complete school operations in one <span class="highlight-blue">dashboard</span></h4>
+                        <p>Admissions, attendance, fee management, and teacher collaboration built for modern schools.</p>
+                        <div class="showcase-service">
+                            <span class="material-symbols-outlined">groups</span>
+                            <span class="service-title">Admin & Student Portal</span>
+                        </div>
+                        <a class="button showcase-button" href="#">
+                            <span class="material-symbols-outlined">open_in_new</span>
+                            Explore Demo
+                        </a>
+                    </div>
+                </article>
+
+                <article class="showcase-card platform-demos">
+                    <div class="showcase-header">
+                        <div class="live-badge">DEMO</div>
+                        <span class="material-symbols-outlined">desktop_windows</span>
+                        <h3>Coaching Webapp</h3>
+                    </div>
+                    <div class="showcase-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&h=300&fit=crop" alt="Coaching Webapp">
+                    </div>
+                    <div class="showcase-content">
+                        <h4>Student progress, schedules, and resource access all in one <span class="highlight-orange">platform</span></h4>
+                        <p>Course management, batch tracking, live session schedules, and result analytics tailored for coaching centers.</p>
+                        <div class="showcase-service">
+                            <span class="material-symbols-outlined">analytics</span>
+                            <span class="service-title">Coaching Operations Demo</span>
+                        </div>
+                        <a class="button showcase-button" href="#">
+                            <span class="material-symbols-outlined">open_in_new</span>
+                            Explore Demo
+                        </a>
+                    </div>
+                </article>
+
+                <article class="showcase-card platform-demos">
+                    <div class="showcase-header">
+                        <div class="live-badge">DEMO</div>
+                        <span class="material-symbols-outlined">fact_check</span>
+                        <h3>JEE/CUET Testing Replica</h3>
+                    </div>
+                    <div class="showcase-image">
+                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=500&h=300&fit=crop" alt="JEE CUET Testing Replica">
+                    </div>
+                    <div class="showcase-content">
+                        <h4>Practice exams that match national-level <span class="highlight-purple">test formats</span></h4>
+                        <p>Realistic exam interface, timed sections, auto-evaluation and detailed performance reports.</p>
+                        <div class="showcase-service">
+                            <span class="material-symbols-outlined">timer</span>
+                            <span class="service-title">Competitive Testing Demo</span>
+                        </div>
+                        <a class="button showcase-button" href="#">
+                            <span class="material-symbols-outlined">open_in_new</span>
+                            Explore Demo
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section mission">
+            <div class="mission-panel">
+                <h2>Become a partner, not just a customer.</h2>
+                <p>FalconLab works alongside your team to create technology that scales with your institute. We provide clarity, care, and measurable outcomes for every implementation.</p>
+            </div>
+        </section>
+
+        <section class="section steps">
+            <div class="section-header">
+                <span>How it works</span>
+                <h2>Six steps to integrate premium EdTech infrastructure.</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-icon material-symbols-outlined">call</span>
+                    <div>
+                        <h3>Contact Us</h3>
+                        <p>Share your goals and challenges, and we will recommend the best path forward.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-icon material-symbols-outlined">chat</span>
+                    <div>
+                        <h3>Consultation</h3>
+                        <p>We review your needs in detail, align on scope, and present a clear proposal.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-icon material-symbols-outlined">settings</span>
+                    <div>
+                        <h3>Implementation</h3>
+                        <p>Our team builds the solution with an emphasis on speed, reliability, and quality.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-icon material-symbols-outlined">devices</span>
+                    <div>
+                        <h3>Testing & Feedback</h3>
+                        <p>We validate workflows and refine the product using stakeholder feedback.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-icon material-symbols-outlined">article</span>
+                    <div>
+                        <h3>Signing MoU</h3>
+                        <p>Optional agreement that clarifies ownership, terms, timelines, and support expectations.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-icon material-symbols-outlined">handshake</span>
+                    <div>
+                        <h3>Training & Support</h3>
+                        <p>We provide training and ongoing assistance so your team can manage the platform confidently.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section pricing" id="pricing">
+            <div class="pricing-header">
+                <h2>Simple, Transparent & Flexible Pricing</h2>
+                <div class="pricing-divider"></div>
+                <p>Choose the plan that works best for your institute</p>
+            </div>
+
+            <div class="pricing-group">
+                <div class="pricing-group-pill">Landing Page Pricing</div>
+                <div class="pricing-row">
+                    <article class="pricing-card">
+                        <div class="pricing-card-content">
+                            <span class="plan-tag">PLAN 1</span>
+                            <div class="plan-top">
+                                <span class="plan-icon material-symbols-outlined">cloud_done</span>
+                                <div class="plan-heading">
+                                    <h3>Managed Plan</h3>
+                                    <p>We build, host & manage everything for you. You focus on your institute, we handle the tech.</p>
+                                </div>
+                            </div>
+                            <div class="pricing-details">
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">code</span>
+                                    <span class="detail-label">Development Cost</span>
+                                    <span class="detail-price">₹5,000 - ₹6,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">domain</span>
+                                    <span class="detail-label">Hosting & Domain Setup</span>
+                                    <span class="detail-price">₹1,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">support_agent</span>
+                                    <span class="detail-label">Maintenance & Support</span>
+                                    <span class="detail-price">₹800 / month</span>
+                                </div>
+                            </div>
+                            <div class="plan-note">Best for institutes who prefer hassle-free management</div>
+                        </div>
+                    </article>
+                    <article class="pricing-card">
+                        <div class="pricing-card-content">
+                            <span class="plan-tag">PLAN 2</span>
+                            <div class="plan-top">
+                                <span class="plan-icon material-symbols-outlined">inventory</span>
+                                <div class="plan-heading">
+                                    <h3>Ownership Plan</h3>
+                                    <p>We build your website and hand over 100% ownership to you.</p>
+                                </div>
+                            </div>
+                            <div class="pricing-details">
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">code</span>
+                                    <span class="detail-label">Development Cost</span>
+                                    <span class="detail-price">₹5,000 - ₹6,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">domain</span>
+                                    <span class="detail-label">Hosting & Domain Setup</span>
+                                    <span class="detail-price">₹1,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">verified</span>
+                                    <span class="detail-label">Full System & Ownership Transfer</span>
+                                    <span class="detail-price">₹16,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">support_agent</span>
+                                    <span class="detail-label">Maintenance & Support</span>
+                                    <span class="detail-price">₹0</span>
+                                </div>
+                                <div class="detail-small">*Paid maintenance would still be available</div>
+                            </div>
+                            <div class="plan-note">Best for institutes who want complete ownership</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="pricing-group">
+                <div class="pricing-group-pill">WebApp+ LMS Pricing</div>
+                <div class="pricing-row">
+                    <article class="pricing-card">
+                        <div class="pricing-card-content">
+                            <span class="plan-tag">PLAN 1</span>
+                            <div class="plan-top">
+                                <span class="plan-icon material-symbols-outlined">devices</span>
+                                <div class="plan-heading">
+                                    <h3>Managed Plan</h3>
+                                    <p>We build, host & manage everything for you. You focus on your institute, we handle the tech.</p>
+                                </div>
+                            </div>
+                            <div class="pricing-details">
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">code</span>
+                                    <span class="detail-label">Development Cost</span>
+                                    <span class="detail-price">₹18,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">domain</span>
+                                    <span class="detail-label">Hosting & Domain Setup</span>
+                                    <span class="detail-price">₹2,500</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">support_agent</span>
+                                    <span class="detail-label">Maintenance & Support</span>
+                                    <span class="detail-price">₹2,000 / month</span>
+                                </div>
+                            </div>
+                            <div class="plan-note">Best for institutes who prefer hassle-free management</div>
+                        </div>
+                    </article>
+                    <article class="pricing-card">
+                        <div class="pricing-card-content">
+                            <span class="plan-tag">PLAN 2</span>
+                            <div class="plan-top">
+                                <span class="plan-icon material-symbols-outlined">inventory</span>
+                                <div class="plan-heading">
+                                    <h3>Ownership Plan</h3>
+                                    <p>We build your website and hand over 100% ownership to you.</p>
+                                </div>
+                            </div>
+                            <div class="pricing-details">
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">code</span>
+                                    <span class="detail-label">Development Cost</span>
+                                    <span class="detail-price">₹18,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">domain</span>
+                                    <span class="detail-label">Hosting & Domain Setup</span>
+                                    <span class="detail-price">₹3,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">verified</span>
+                                    <span class="detail-label">Full System & Ownership Transfer</span>
+                                    <span class="detail-price">₹60,000</span>
+                                </div>
+                                <div class="detail-small">*Staff training also covered</div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">support_agent</span>
+                                    <span class="detail-label">Maintenance & Support</span>
+                                    <span class="detail-price">₹0</span>
+                                </div>
+                                <div class="detail-small">*Paid maintenance would still be available</div>
+                            </div>
+                            <div class="plan-note">Best for institutes who want complete ownership</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="pricing-group">
+                <div class="pricing-group-pill">JEE / CUET Testing Replica Pricing</div>
+                <div class="pricing-row">
+                    <article class="pricing-card">
+                        <div class="pricing-card-content">
+                            <span class="plan-tag">PLAN 1</span>
+                            <div class="plan-top">
+                                <span class="plan-icon material-symbols-outlined">school</span>
+                                <div class="plan-heading">
+                                    <h3>Managed Plan</h3>
+                                    <p>We build, host & manage everything for you. You focus on your institute, we handle the tech.</p>
+                                </div>
+                            </div>
+                            <div class="pricing-details">
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">code</span>
+                                    <span class="detail-label">Development Cost</span>
+                                    <span class="detail-price">₹30,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">domain</span>
+                                    <span class="detail-label">Hosting & Domain Setup</span>
+                                    <span class="detail-price">₹5,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">support_agent</span>
+                                    <span class="detail-label">Maintenance & Support</span>
+                                    <span class="detail-price">₹3,500 / month</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">security</span>
+                                    <span class="detail-label">Free Security Upgradations</span>
+                                    <span class="detail-price">₹0</span>
+                                </div>
+                            </div>
+                            <div class="plan-note">Best for institutes who prefer hassle-free management</div>
+                        </div>
+                    </article>
+                    <article class="pricing-card">
+                        <div class="pricing-card-content">
+                            <span class="plan-tag">PLAN 2</span>
+                            <div class="plan-top">
+                                <span class="plan-icon material-symbols-outlined">inventory</span>
+                                <div class="plan-heading">
+                                    <h3>Ownership Plan</h3>
+                                    <p>We build your website and hand over 100% ownership to you.</p>
+                                </div>
+                            </div>
+                            <div class="pricing-details">
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">code</span>
+                                    <span class="detail-label">Development Cost</span>
+                                    <span class="detail-price">₹30,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">domain</span>
+                                    <span class="detail-label">Hosting & Domain Setup</span>
+                                    <span class="detail-price">₹5,000</span>
+                                </div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">verified</span>
+                                    <span class="detail-label">Full System & Ownership Transfer</span>
+                                    <span class="detail-price">₹95,000</span>
+                                </div>
+                                <div class="detail-small">*Staff training also covered</div>
+                                <div class="pricing-detail">
+                                    <span class="detail-icon material-symbols-outlined">support_agent</span>
+                                    <span class="detail-label">Maintenance & Support</span>
+                                    <span class="detail-price">₹0</span>
+                                </div>
+                                <div class="detail-small">*Paid maintenance would still be available</div>
+                            </div>
+                            <div class="plan-note">Best for institutes who want complete ownership</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="contact-card">
+                <div>
+                    <span>Ready to elevate your institute?</span>
+                    <h2>Speak with FalconLab and launch a premium digital experience.</h2>
+                </div>
+                <a class="button primary" href="tel:+917986724443">Contact us</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact Notification -->
+    <div class="notification" id="contactNotification">
+        <div class="notification-content">
+            <p>WhatsApp: +91 7986724443<br>Or Email: arnavgumber.ag@gmail.com</p>
+        </div>
+        <button class="notification-close" aria-label="Close notification">
+            <span class="material-symbols-outlined">close</span>
+        </button>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
