@@ -480,7 +480,7 @@ h1 {
 }
 
 .hero-panel li::before {
-    content: '�';
+    content: '>';
     color: var(--accent);
     font-size: 1.2rem;
     line-height: 1;
